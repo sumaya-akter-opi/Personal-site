@@ -1,0 +1,502 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: "Fira Sans", system-ui;
+}
+h1{
+ text-align: center;
+ font-size:2.5rem;
+
+
+}
+h2{
+    text-align: center;
+    font-size:1.5rem;
+    color:white;
+   
+   
+   }
+   .hr-dotted{
+    border: dotted 6px ;
+    border-top: none;
+    width:60px;
+    margin: 10px auto;
+    color:white;
+   
+    
+}
+   p{
+    font-size: 1.2rem;
+    text-align: justify;
+   }
+   
+a{
+   color:white;
+   text-decoration: none; 
+   font-size: 1.2rem;
+   text-align: center;
+}
+
+[class*="col-"]{
+    padding:10px;
+    float: left;
+}
+
+ for mobile
+[class*="col-"]{
+    width:100%;
+   
+}
+/*nav desing start*/
+.navbar{
+   
+    background-color: rgb(61, 2, 61);
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar::after{
+ 
+   content:'';
+   display:table;
+   clear: both;
+  
+}
+    
+ 
+
+
+.nav-logo img{
+    width:100px;
+    height:120px;
+  border-radius: 50%;
+  
+   
+  
+  
+}
+.nav-heading{
+    margin-top: 10px;
+    color:white;
+   
+  
+}
+.nav-manu{
+    display: flex;
+    flex-direction: column;
+   text-transform: uppercase;
+
+}
+.nav-manu a{
+ background-color:rgb(61, 2, 61) ;
+ margin: 7px;
+ padding: 10px;
+ border-radius: 10px;
+ 
+}
+.nav-manu a:hover{
+    background-color: grey;
+}
+/*nav desing end*/
+
+/*profile desing start*/
+.profile{
+    
+ padding: 130px 10px;
+ position: absolute;
+text-align: center;
+}
+.top-weather{
+    position: relative;
+    right: 60px;
+    top: 20px;
+    width: 120px;
+   float: right;
+   transition: transform 2s;
+  
+}
+.top-weather:hover{
+    transform: rotate(360deg);
+}
+.profile-text{ 
+   
+    text-align: center;
+    padding: 30px;
+    margin: 0px ;
+}
+.profile-text h1{
+   
+    margin-top: 120px;
+    text-align: center;
+    font-family: "Satisfy", system-ui;
+}
+.profile-text p{
+   
+    padding-top: 40px;
+    font-family: "Montserrat", system-ui;
+  
+}
+.bottom-weather{
+    position: relative;
+    left: 60px;
+   bottom: 10px;
+    width: 120px;
+   float: left;
+   transition:transform 2s;
+   
+   
+}
+.bottom-weather:hover{
+   
+    transform:rotate(360deg);
+  
+}
+
+
+/*profile desing end*/
+
+/*about me start*/
+
+.About-me{
+    background-color: darkcyan;
+    margin-top:150px;
+    padding: 1% 7%;
+    color: white;
+    font-family: "Montserrat", system-ui;
+}
+.About-me::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.sumaya-img img{
+    width: 150px;
+    height: 170px;
+   margin: auto;
+   border-radius: 50%;
+   border: 5px solid white;
+}
+.About-me p{
+    text-align: center;
+    
+}
+.about-info{ }
+
+.aboutme-hr{
+   outline-style: dotted 1px ;
+   color:white;
+   margin: 15px;
+   
+
+    
+   
+}
+.cv-down{
+    background-color: #052d2f;
+    color:white;
+    padding: 10px;
+    margin: 10px;
+   border-radius: 12%;
+   cursor: pointer;
+   border: none;
+   text-align: center;
+
+    
+}
+
+/*About me desing end*/
+
+/*Card  desing start */
+.professional-exp{
+    padding: 1% 7%;
+    
+    
+
+}
+
+.Education{
+    background-color: darkslategrey;
+    box-shadow: 1px 2px 4px black;
+    border-radius: 5px;
+    height: 700px;
+    padding: 10px;
+
+}
+.professional-exp::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+.Education:hover{
+    box-shadow: 2px 6px 10px;
+}
+
+.Education img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+   margin-left: 125px;
+  
+}
+.round-img{
+    border: 5px solid white;
+    padding: 15px;
+}
+
+.edu-history{
+    
+}
+.edu-head{
+    text-align:center;
+    color:white;
+    margin: 10px 20px;
+    background-color: #052d2f;
+}
+
+
+
+/*Card  desing end*/
+
+.professional-skills{
+    padding: 1% 7%;
+}
+
+
+.skills{
+    background-color: darkslategrey;
+    box-shadow: 1px 2px 4px black;
+    border-radius: 5px;
+    height: 700px;
+    padding: 10px;
+}
+
+.professional-skills::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.skills:hover{
+    
+    box-shadow: 2px 6px 10px black;
+   
+}
+.skills img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 125px;
+    margin-right: 125px;
+
+   
+}
+.round-skill-img{
+    border: 5px solid white;
+    padding: 15px;
+    
+    
+}
+
+.skill-head{
+ background-color: #052d2f;
+ text-align: center;
+ color: white;
+ margin: 10px 20px;
+   
+}
+.skill-history{
+   
+}
+.skill-history li{
+    list-style: none;
+    font-weight: bold;
+   text-transform: uppercase;
+   margin: 30px 10px;
+   position: relative;
+   
+   
+}
+.skill-history li::before{
+    position: absolute;
+    background-color: rgb(86, 86, 156, 5);
+    width: 100%;
+    height: 10px;
+    content: '';
+    top:calc(100% + 5px);
+    border-radius: 1000px;
+    left: 0;
+}
+.skill-history li::after{
+    
+    position: absolute;
+    background-color:chartreuse;
+    width:0%;
+    height: 10px;
+    content: '';
+    top:calc(100% + 5px);
+    border-radius: 1000px;
+    left: 0;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.skill-history li.html::after{
+    animation-name: html;
+}
+@keyframes html{
+   to{
+    width: 90%;
+   }
+}
+.skill-history li.java::after{
+    animation-name: java;
+}
+@keyframes java{
+    to{
+        width: 75%;
+    }
+
+}
+ 
+.skill-history li.php::after{
+    animation-name: php;
+}
+@keyframes php{
+    to{
+        width: 50%;
+    }
+
+}
+
+.skill-history li.python::after{
+    animation-name: python;
+}
+@keyframes python{
+    to{
+        width: 30%;
+    }
+
+}
+.skill-history li.c::after{
+    animation-name:c;
+}
+@keyframes c{
+    to{
+        width: 95%;
+    }
+}
+.skill-history li.github::after{
+    animation-name:github;
+}
+@keyframes github{
+    to{
+        width: 100%;
+    }
+}
+
+
+/* Achivements  desing Start*/
+
+.achivement-continer{
+    padding: 1% 7%;
+    background-color: darkslateblue;
+    
+}
+
+.achivement li{
+    text-align: left;
+    padding: 5px;
+    color: white;
+  }
+  .contact-me { text-align: center;  }
+  
+  .contact-me p {
+    
+   
+    padding: 10px;
+    
+} 
+
+.contact-me input, textarea {
+    
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    resize: none;  
+    
+} 
+.contact-me button{
+    background-color: #052d2f;
+    border: none;
+    border-radius: 30px;
+   padding: 15px;
+   margin: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.icon button{
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20%;
+    font-size: 2rem;
+
+}
+.icon button:hover{
+    background-color: dimgray;
+}
+
+
+
+
+.achivement-continer{
+    
+    clear: both;
+    content: '';
+    display: table;
+
+}
+
+/*Achivements  desing end */
+
+
+.footer{
+    background-color: black;
+    height: 120px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+
+   
+}
+ .footer-manu a{
+    margin: 10px;
+    font-size: 1rem;
+    
+}
+.footer .footer-manu{
+   
+   
+}
+.footer2 h3{
+ text-align: center;
+ padding: 15px;
+ font-size: 1rem;
+
+}
+.footer::after{
+    clear: both;
+    content: '';
+    display: table;
+
+}
